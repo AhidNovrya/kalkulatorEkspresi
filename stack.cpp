@@ -176,7 +176,7 @@ string infixToPrefix(string tokens[], int jToken){
 
     prefix = "";
     for (int i=0;i<j;i++){
-        prefix += reverseToken[i];
+        prefix += reverseToken[i], " ";
     }
     return prefix;
 }
