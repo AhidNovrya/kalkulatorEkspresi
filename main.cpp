@@ -1,11 +1,8 @@
 #include "stack.h"
 
 int main(){
-    string x, token[100];
+    string x, token[MAXSTACK], rToken[MAXSTACK];
     int jToken;
-    stack S;
-
-    createStack(S);
 
     while (x != "exit"){
         cout<< "inputkan 'exit' untuk keluar"<< endl;
@@ -15,12 +12,11 @@ int main(){
         if (x != "exit"){
             jToken = tokenize(x, token);
 
-            cout<< "Ekspresi postfix: ";
-            infixToPostfix(S, token, jToken);
+            cout<< "Ekspresi postfix: "<< infixToPostfix(token, jToken, 1)<< endl;
+            cout<< "Ekspresi prefix: "<< infixToPrefix(token, jToken)<< endl;
 
         }
         cout<< endl;
     }
-
     return 0;
 }

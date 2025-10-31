@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1761821833 source:d:\document\program\c++\kalkulatorekspresi\stack.cpp
+1761909228 source:d:\document\program\c++\kalkulatorekspresi\stack.cpp
 	"stack.h"
 
-1761820929 d:\document\program\c++\kalkulatorekspresi\stack.h
+1761908790 d:\document\program\c++\kalkulatorekspresi\stack.h
 	<iostream>
 
-1761822653 source:d:\document\program\c++\kalkulatorekspresi\main.cpp
+1761908789 source:d:\document\program\c++\kalkulatorekspresi\main.cpp
 	"stack.h"
 

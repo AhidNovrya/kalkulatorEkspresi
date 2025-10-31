@@ -35,10 +35,6 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="stack.cpp" />
 		<Unit filename="stack.h" />
-		<Unit filename="stack.tpp">
-			<Option compile="1" />
-			<Option link="1" />
-		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
